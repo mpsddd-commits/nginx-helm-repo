@@ -1,1 +1,9 @@
 # nginx-helm-repo
+
+Helm chart repository provided by LHS
+
+      helm repo add nginx-helm-repo https://github.com/mpsddd-commits/nginx-helm-repo.git
+      helm repo list
+      helm repo update
+      helm search repo mynginx
+      helm install webserver nginx-helm-repo/mynginx
